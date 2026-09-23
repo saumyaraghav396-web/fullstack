@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: blue;
+            animation: rotate 5s infinite;
+            /* animation:linear 3s infinite; */
+
+        }
+
+        @keyframes rotate {
+            0%{
+                background: blue;
+                scale: 1.2;
+                margin: 0px;
+            }
+            50%{
+                background: red;
+                scale: 0.5;
+                margin: 0px;
+            }
+            100%{
+                background: yellow;
+                scale: 0.1;
+                margin: 0px;
+            }
+            
+        }
+    </style>
+    
+    
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
+
+
+
+
+

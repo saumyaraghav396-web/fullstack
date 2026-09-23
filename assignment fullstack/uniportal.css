@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #591e8a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Home */
+.home {
+    text-align: center;
+    background-color: #dbeafe;
+    padding: 60px 25px;
+}
+
+.home h2 {
+    color: #1e3a8a;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Headings */
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+section p {
+    line-height: 1.6;
+}
+
+/* Course List */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+```
+
+
