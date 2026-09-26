@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body ,html{
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: aqua;
+            
+
+}
+        
+        .doorbox{
+            width: 200px;
+            height: 300px;
+            background: rgb(255, 162, 0);
+            overflow: hidden; 
+            transition: cubic-bezier(0.075 , 0.82 , 0.165 ,1);
+
+        }
+        .door{
+            width: 100%;
+            height: 100%;
+            background: red;
+            border: 5px solid black;
+            position: relative;
+            transition-duration;
+
+        }
+
+        .doorbox:hover .door{
+            transform: rotateY(89deg);
+            transition: transform 2s ease;
+
+        }
+        .door .handle{
+            width: 20px;
+            height: 20px;
+            background-color: blueviolet;
+            border-radius: 50%;
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            /* transform: translateY (-50%); */
+        }
+        .greet {
+            position: absolute;
+            top: calc(50% - 50px);
+            left: calc(50% - 50px);
+        transform: scale(1);
+        width: 100px;
+        padding: 10px;
+        background: linear-gradient(blue , white, blue);
+        transition: all ls linear 2.5s;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="doorbox">
+        <div class="door">
+            <div class="doorhandle">
+                <div class="greet">
+                    <h1>Hello</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
